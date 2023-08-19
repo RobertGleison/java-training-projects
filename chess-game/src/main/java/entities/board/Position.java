@@ -1,4 +1,4 @@
-package entities;
+package entities.board;
 
 public class Position {
     private int row;
@@ -16,20 +16,20 @@ public class Position {
         return row;
     }
 
-    public void setRow(int row) {
-        this.row = row;
-    }
-
     public int getColumns() {
         return columns;
     }
 
-    public void setColumns(int columns) {
-        this.columns = columns;
-    }
-
     public void setValues(int row, int column){
-
+        this.row = row;
+        this.columns = column;
     }
 
+    @Override
+    public String toString() {
+        return "Position: " +
+                "row=" + row +
+                ", columns=" + columns +
+                '}';
+    }
 }
