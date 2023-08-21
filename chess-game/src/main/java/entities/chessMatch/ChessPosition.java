@@ -1,6 +1,10 @@
 package entities.chessMatch;
 
+<<<<<<< HEAD
 import entities.board.Position;
+=======
+import entities.boardgame.Position;
+>>>>>>> 9eebe2e (Created position and chessPosition)
 
 public class ChessPosition {
     private char column;
