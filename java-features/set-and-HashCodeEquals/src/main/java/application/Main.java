@@ -1,27 +1,45 @@
 package application;
 
-import entities.Student;
-import entities.Instructor;
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the name of instructor: ");
-        String instructorName = sc.nextLine();
-        System.out.print("Enter the code of instructor: ");
-        int instructorCode = sc.nextInt();
-        Instructor instructor = new Instructor(instructorName,instructorCode);
 
-        System.out.println("\nThis instructor have the following courses: ");
+        Set<Integer> a = new HashSet<>();
+        Set<Integer> b = new HashSet<>();
+        Set<Integer> c = new HashSet<>();
 
-//        System.out.print("How many students for course A? ");
-//        int numberOfStudents = sc.nextInt();
-//        for (int i = 0; i < numberOfStudents; i++) {
-//            Student student1 = sc.nextInt();
-//        }
+        System.out.print("How many students for course A? ");
+        int n = sc.nextInt();
+        for (int i = 0; i < n; i++) {
+            int number = sc.nextInt();
+            a.add(number);
+        }
 
+        System.out.print("How many students for course B? ");
+        n = sc.nextInt();
+        for (int i = 0; i < n; i++) {
+            int number = sc.nextInt();
+            b.add(number);
+        }
 
+        System.out.print("How many students for course C? ");
+        n = sc.nextInt();
+        for (int i = 0; i < n; i++) {
+            int number = sc.nextInt();
+            c.add(number);
+        }
+
+        Set<Integer> result = new HashSet<>(a);
+        result.addAll(b);
+        result.addAll(c);
+
+        System.out.println("Total students: " + result.size());
+
+        sc.close();
     }
 }
