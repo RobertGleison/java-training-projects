@@ -15,9 +15,4 @@ public class Piece {
         return board;
     }
 
-    public boolean isThereAnyPossibleMove(){
-
-
-    }
-
 }
