@@ -30,14 +30,14 @@ public class ChessPosition {
     public Position getPosition() {
         return position;
     }
-
-//    protected ChessPosition fromPosition(Position position){
-//        this.column = position.getColumns();
-//        this.row = position.getRow();
+//
+//    protected Position fromPosition(Position position){
+//        int column = position.getColumn();
+//        int row = position.getRow();
+//
 //    }
 //    protected ChessPosition toPosition(Position position){
-//        this.column = position.getColumns();
-//        this.row = position.getRow();
+//
 //    }
 
 }
