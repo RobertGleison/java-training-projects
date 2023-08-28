@@ -2,7 +2,7 @@ package entities;
 
 import java.util.Comparator;
 
-public class Employee implements Comparator {
+public class Employee {
     private String name;
     private String email;
     private Double salary;
@@ -34,7 +34,6 @@ public class Employee implements Comparator {
     }
 
     @Override
-    public int compareTo(Employee e) {
-        return this.email.compareTo(e.getEmail());
-    }
+    public String toString() {
+        return email;    }
 }
