@@ -1,4 +1,4 @@
-package entities.Exceptions;
+package entities.exceptions;
 
 public class BoardException extends RuntimeException{
     private static final long serialVersionUID = 2L;
