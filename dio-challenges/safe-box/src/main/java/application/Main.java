@@ -12,10 +12,10 @@ public class Main {
             safe = new SafeBox(type);
             System.out.println(safe);
         }
-        String password = sc.nextLine();
-        String confirmPassword = sc.nextLine();
 
         if (type.equals("digital")) {
+            String password = sc.nextLine();
+            String confirmPassword = sc.nextLine();
             safe = new DigitalSafeBox(type, password, confirmPassword);
             System.out.println(safe);
         }
@@ -59,7 +59,7 @@ class DigitalSafeBox extends SafeBox {
         return confirmPassword;
     }
     public String matchPasswords() {
-        if (this.password.equals(this.confirmPassword))
+        if (this.password.equalsIgnoreCase(this.confirmPassword))
             return "Cofre aberto!";
         else return "Senha incorreta!";
     }
