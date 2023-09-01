@@ -1,17 +1,20 @@
 package entities;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Analisys {
-    private LocalDate date;
+
+    private String date;
     private String description;
 
-    public Analisys(LocalDate date, String description) {
+
+    public Analisys(String date, String description) {
         this.date = date;
         this.description = description;
     }
 
-    public LocalDate getDate() {
+    public String getDate() {
         return date;
     }
 
