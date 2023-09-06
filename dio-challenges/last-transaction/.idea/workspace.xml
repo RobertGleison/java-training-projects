@@ -4,23 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64439765-d17f-4a2e-8800-475f1730285a" name="Changes" comment="" />
+    <list default="true" id="8b12d679-1799-46aa-8e6f-8cac978bd23d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
+  "associatedIndex": 4
 }]]></component>
-  <component name="ProjectId" id="2UnAoUX503CkMUjEBGbvJZslSV6" />
+  <component name="ProjectId" id="2UnNfz8iTaEwoXvHILOICpNswVY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,18 +21,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="64439765-d17f-4a2e-8800-475f1730285a" name="Changes" comment="" />
-      <created>1693565145870</created>
+      <changelist id="8b12d679-1799-46aa-8e6f-8cac978bd23d" name="Changes" comment="" />
+      <created>1693571491354</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1693565145870</updated>
+      <updated>1693571491354</updated>
     </task>
     <servers />
   </component>

@@ -58,7 +58,7 @@ public class ShareHolders {
 
     public void getDescription() {
         for (Analisys a : analisys) {
-            if ((LocalDate.parse(a.getDate(),dtf).isAfter(getBeginnigDate()) && LocalDate.parse(a.getDate(),dtf).isBefore(getFinalDate()) || LocalDate.parse(a.getDate(),dtf).equals(getBeginnigDate()) || LocalDate.parse(a.getDate(),dtf).equals(getFinalDate()))) {
+            if ((LocalDate.parse(a.getDate(), dtf).isAfter(getBeginnigDate()) && LocalDate.parse(a.getDate(), dtf).isBefore(getFinalDate()) || LocalDate.parse(a.getDate(), dtf).equals(getBeginnigDate()) || LocalDate.parse(a.getDate(), dtf).equals(getFinalDate()))) {
                 System.out.println(a.getDescription());
             }
         }
