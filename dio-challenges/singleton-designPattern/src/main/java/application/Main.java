@@ -1,5 +1,6 @@
 package application;
 
+import facade.Facade;
 import singleton.EagerSingleton;
 import singleton.LazyHolderSingleton;
 import singleton.LazySingleton;
@@ -18,19 +19,23 @@ public class Main {
 //        System.out.println(lazyHolder);
 
 //Strategy
-        Behavior normal = new NormalBehavior();
-        Behavior defensive = new DefensiveBehavior();
-        Behavior agressive = new AgressiveBehavior();
+//        Behavior normal = new NormalBehavior();
+//        Behavior defensive = new DefensiveBehavior();
+//        Behavior agressive = new AgressiveBehavior();
+//
+//        Robot robot = new Robot();
+//        robot.setStrategy(normal);
+//        robot.move();
+//
+//        robot.setStrategy(defensive);
+//        robot.move();
+//
+//        robot.setStrategy(agressive);
+//        robot.move();
 
-        Robot robot = new Robot();
-        robot.setStrategy(normal);
-        robot.move();
-
-        robot.setStrategy(defensive);
-        robot.move();
-
-        robot.setStrategy(agressive);
-        robot.move();
+//Facade
+        Facade facade = new Facade();
+        facade.clientMigration("Robert","35661776");
 
 
 
