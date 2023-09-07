@@ -1,4 +1,4 @@
-package org.application;
+package singleton;
 
 /**
  * "Eager" Singleton
